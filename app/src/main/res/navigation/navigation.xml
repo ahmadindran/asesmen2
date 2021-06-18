@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homepage">
+    <fragment
+        android:id="@+id/homepage"
+        android:name="org.d3if4077.hitungpersegipanjang.ui.Homepage"
+        android:label="Homepage"
+        tools:layout="@layout/fragment_homepage">
+        <action
+            android:id="@+id/action_homepage_to_hitungPersegiPanjang"
+            app:destination="@id/hitungPersegiPanjang" />
+        <action
+            android:id="@+id/action_homepage_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_homepage_to_pengertianFragment"
+            app:destination="@id/pengertianFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hitungPersegiPanjang"
+        android:name="org.d3if4077.hitungpersegipanjang.ui.hitung.HitungPersegiPanjang"
+        android:label="Hitung Persegi Panjang"
+        tools:layout="@layout/fragment_input">
+        <action
+            android:id="@+id/action_hitungPersegiPanjang_to_hasilHitungSisi"
+            app:destination="@id/hasilHitungSisi" />
+        <action
+            android:id="@+id/action_hitungPersegiPanjang_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hasilHitungSisi"
+        android:name="org.d3if4077.hitungpersegipanjang.ui.HasilLuasKeliling"
+        android:label="Hasil Hitung Sisi"
+        tools:layout="@layout/fragment_hasil_luas_keliling">
+        <argument
+            android:name="panjang"
+            app:argType="float" />
+        <argument
+            android:name="lebar"
+            app:argType="float" />
+        <argument
+            android:name="cari"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="org.d3if4077.hitungpersegipanjang.ui.internet.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/pengertianFragment"
+        android:name="org.d3if4077.hitungpersegipanjang.ui.internet.PengertianFragment"
+        android:label="Pengertian"
+        tools:layout="@layout/fragment_pengertian" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="org.d3if4077.hitungpersegipanjang.ui.history.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_historyFragment_to_hitungPersegiPanjang"
+            app:destination="@id/hitungPersegiPanjang" />
+        <action
+            android:id="@+id/action_historyFragment_to_updatePersegiPanjang"
+            app:destination="@id/updatePersegiPanjang" />
+    </fragment>
+    <fragment
+        android:id="@+id/updatePersegiPanjang"
+        android:name="org.d3if4077.hitungpersegipanjang.ui.UpdatePersegiPanjang"
+        android:label="Update Persegi Panjang"
+        tools:layout="@layout/fragment_update">
+        <action
+            android:id="@+id/action_updatePersegiPanjang_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+</navigation>

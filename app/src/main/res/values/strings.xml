@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Hitung Persegi Panjang</string>
+    <string name="hitung_persegi_panjang">Hitung Persegi Panjang</string>
+    <string name="hitung_homepage">Hitung Keliling &amp; Luas</string>
+    <string name="pengertian_homepage">Apa itu Persegi Panjang?</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="cari">Cari</string>
+    <string name="luas">Luas</string>
+    <string name="keliling">Keliling</string>
+    <string name="luas_keliling">Keduanya</string>
+    <string name="hitung">Hitung</string>
+    <string name="reset">Reset</string>
+    <string name="panjang_invalid">Panjang tidak boleh kosong.</string>
+    <string name="lebar_invalid">Lebar tidak boleh kosong.</string>
+    <string name="total_invalid">Hasil diketahui tidak boleh kosong.</string>
+    <string name="sisi_invalid">Sisi tidak boleh kosong.</string>
+    <string name="hitung_invalid">Harus dipilih.</string>
+    <string name="Luas_text">Luas</string>
+    <string name="judul_luas">Luas</string>
+    <string name="judul_keliling">Keliling</string>
+    <string name="judul_keduanya">Luas &amp; Keliling</string>
+    <string name="keliling_x">Rumus Keliling\n= (2 x Panjang) + (2 x Lebar)\n= (2 x %1$.1f) + (2 x %2$.1f)\n= %3$.1f + %4$.1f\n= %5$.1f</string>
+    <string name="luas_x">Rumus Luas\n= Panjang x Lebar\n= %1$.1f x %2$.1f\n= %3$.1f</string>
+    <string name="luas_keliling_x">Rumus Luas\n= Panjang x Lebar\n= %1$.1f x %2$.1f\n= %3$.1f\n\nRumus Keliling\n= (2 x Panjang) + (2 x Lebar)\n= (2 x %4$.1f) + (2 x %5$.1f)\n= %6$.1f + %7$.1f\n= %8$.1f</string>
+    <string name="copyright">Hitung Persegi Panjang adalah aplikasi yang memudahkan untuk menghitung luas, keliling atau keduanya. Dan juga untuk mencari Panjang atau sisi yang belum diketahui berdasarkann luas atau keliling.\n\n<i>Copyright © 2021 Ahmad Indra Nurfauzi.\nAll rights reserved.</i></string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="judul_share">Share</string>
+    <string name="pengertian">Persegi panjang (bahasa Inggris: rectangle) adalah bangun datar dua dimensi yang dibentuk oleh dua pasang sisi yang masing-masing sama panjang dan sejajar dengan pasangannya, dan memiliki empat buah sudut yang kesemuanya adalah sudut siku-siku.</string>
+    <string name="lihat_cara">Lihat Cara</string>
+    <string name="share">Share</string>
+    <string name="l_k">Luas = %1$.1f Keliling = %2$.1f</string>
+    <string name="l_x">Luas = %1$.1f</string>
+    <string name="k_x">Keliling = %1$.1f</string>
+    <string name="hasil">Hasil = %1$.1f</string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="history">History</string>
+    <string name="panjang_x">Panjang = %1$.1f</string>
+    <string name="lebar_x">Lebar = %1$.1f</string>
+    <string name="hapus_history">Hapus History</string>
+    <string name="konfirmasi_hapus_semua">Hapus semua histori?</string>
+    <string name="konfirmasi_hapus">Hapus histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+    <string name="warning">Warning</string>
+</resources>
